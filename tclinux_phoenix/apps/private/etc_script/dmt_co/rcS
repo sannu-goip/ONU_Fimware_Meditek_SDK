@@ -1,0 +1,149 @@
+#!/bin/sh
+PROFILE_CFG=/userfs/profile.cfg
+if [ -f $PROFILE_CFG ] ; then
+    chmod 777 $PROFILE_CFG
+    . $PROFILE_CFG
+fi
+
+if [ "$TCSUPPORT_2_6_36_KERNEL" != "" ] ;then
+	KERNEL_DIR=/lib/modules/2.6.36
+else
+	KERNEL_DIR=/lib/modules/2.6.22.15
+fi
+mount -a
+
+/bin/busybox cp -a /usr/etc /tmp
+
+/bin/mkdir -m 0777 -p /tmp/var
+/bin/mkdir -m 0777 -p /var/lock
+/bin/mkdir -m 0777 -p /var/log
+/bin/mkdir -m 0777 -p /var/run
+/bin/mkdir -m 0777 -p /var/tmp
+
+
+insmod /lib/modules/module_sel.ko
+if [ "$TCSUPPORT_SMUX" != "" ] ;then
+insmod /lib/modules/multiwan.ko
+fi
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+echo 1 > /proc/sys/net/ipv4/tcp_syncookies
+echo 2048 > /proc/sys/net/nf_conntrack_max
+
+#krammer add for LAN can't continuous ping to WAN when exchenging the routing mode
+#bug1126
+echo 3 > /proc/sys/net/netfilter/nf_conntrack_icmp_timeout 
+
+echo 0 > /proc/sys/net/ipv4/conf/default/accept_source_route
+echo 0 > /proc/sys/net/ipv4/conf/all/accept_source_route
+
+insmod /lib/modules/tcledctrl.ko
+insmod /lib/modules/tccicmd.ko
+
+/userfs/bin/cfg_manager & 
+sleep 2
+
+#LED GPIO Settings
+CONFFILE=/etc/led.conf
+if [ -f $CONFFILE ]; then
+	chmod 777 $CONFFILE
+	. $CONFFILE
+fi
+if [ "$LAN" != "" ]; then
+	echo $LAN > /proc/tc3162/led_def
+fi
+
+
+echo "insmod raeth driver"
+insmod /lib/modules/raeth.ko
+echo 8 >/proc/irq/22/smp_affinity
+
+if [ "$TCSUPPORT_QDMA_BUFMGR" != "" ] ;then
+insmod /lib/modules/qdma.ko
+fi
+
+insmod /lib/modules/tc3162_dmt.ko
+
+
+# support QoS
+if [ "$TCSUPPORT_QOS" != "" ] ;then
+insmod $KERNEL_DIR/kernel/net/sched/act_mirred.ko
+insmod $KERNEL_DIR/kernel/net/sched/cls_fw.ko
+insmod $KERNEL_DIR/kernel/net/sched/sch_htb.ko
+insmod $KERNEL_DIR/kernel/net/sched/sch_prio.ko
+ifconfig imq0 up
+fi
+
+# load ebtable filter module
+insmod $KERNEL_DIR/kernel/net/bridge/netfilter/ebtables.ko
+insmod $KERNEL_DIR/kernel/net/bridge/netfilter/ebtable_filter.ko
+insmod $KERNEL_DIR/kernel/net/bridge/netfilter/ebt_ip.ko
+if [ "$TCSUPPORT_BRIDGEARP_NOFWD_LAN" != ""  -o  "$TCSUPPORT_CZ_GENERAL" != "" ] ;then
+insmod $KERNEL_DIR/kernel/net/bridge/netfilter/ebt_arp.ko
+fi
+if [ "$TCSUPPORT_IPV6" != "" ] ;then
+insmod $KERNEL_DIR/kernel/net/bridge/netfilter/ebt_ip6.ko
+fi
+
+ifconfig lo 127.0.0.1
+route add -net 127.0.0.0 netmask 255.255.0.0 lo
+
+ifconfig eth0 0.0.0.0
+
+insmod /lib/modules/hw_nat.ko
+
+brctl addbr br0
+brctl addif br0 eth0
+
+brctl setfd br0 0
+brctl stp br0 off
+
+ifconfig eth0 | sed -n '1p' | sed 's/^.*HWaddr /WAN_MAC=/g' >> /etc/mac.conf
+ifconfig eth0 | sed -n '1p' | sed 's/^.*HWaddr /LAN_MAC=/g' >> /etc/mac.conf
+
+
+HOSTNAME=`/userfs/bin/tcapi get Snmpd_Entry sysName`
+# Set the hostname.
+echo $HOSTNAME > /etc/hostname
+hostname -F /etc/hostname
+rm -rf /etc/hostname
+
+tcwdog -t 1 /dev/watchdog &
+
+utelnetd -l /bin/login -d
+
+/userfs/bin/tcapi set Lan_EtherMedia enable none
+
+
+/userfs/bin/ethphxcmd eth0 vlanpt disable
+#/bin/echo 1 > /proc/tc3162/stag_to_vtag
+#/userfs/bin/ethphxcmd eth0 vlanpt enable
+
+# drop caches
+if [ "$TCSUPPORT_MULTISERVICE_ON_WAN" != "" ] ;then
+echo 3 > /proc/sys/vm/drop_caches
+fi
+
+#. /userfs/startup.sh
+/userfs/bin/tcapi set System_Entry start_up 1
+/userfs/bin/tcapi commit System_Entry
+/userfs/bin/tcapi set System_Entry start_up 0
+
+if [ "$TCSUPPORT_CPU_TC3262" != "" -o "$TCSUPPORT_CPU_TC3182" != ""  -o "$TCSUPPORT_CPU_RT63165" != "" -o "$TCSUPPORT_CPU_RT65168" != "" -o "$TCSUPPORT_CPU_MT7510" != ""  -o  "$TCSUPPORT_CPU_MT7505" != "" ] ;then
+w rts dbg off
+fi
+
+w dmt2 set largeD 2
+
+if [ "$TCSUPPORT_DMT_CO" != "" ] ;then
+wan ghs set annex a
+fi
+
+echo 1280 > /proc/net/skbmgr_driver_max_skb
+
+
+# drop caches
+echo 3 > /proc/sys/vm/drop_caches
+
+#tftp server
+/userfs/bin/tftpd &

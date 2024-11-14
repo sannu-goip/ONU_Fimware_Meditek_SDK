@@ -1,0 +1,1051 @@
+debianutils/mktemp.o: debianutils/mktemp.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+debianutils/which.o: debianutils/which.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+debianutils/pipe_progress.o: debianutils/pipe_progress.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+debianutils/start_stop_daemon.o: debianutils/start_stop_daemon.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h)
+debianutils/run_parts.o: debianutils/run_parts.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+debianutils/readlink.o: debianutils/readlink.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+libbb/safe_write.o: libbb/safe_write.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/warn_ignoring_args.o: libbb/warn_ignoring_args.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/my_getgrnam.o: libbb/my_getgrnam.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h)
+libbb/xregcomp.o: libbb/xregcomp.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/herror_msg_and_die.o: libbb/herror_msg_and_die.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/find_pid_by_name.o: libbb/find_pid_by_name.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/selinux.h)
+libbb/xfuncs.o: libbb/xfuncs.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/getopt_ulflags.o: libbb/getopt_ulflags.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/perror_msg_and_die.o: libbb/perror_msg_and_die.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/copyfd.o: libbb/copyfd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+libbb/chomp.o: libbb/chomp.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/change_identity.o: libbb/change_identity.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/error_msg_and_die.o: libbb/error_msg_and_die.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/kernel_version.o: libbb/kernel_version.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/messages.o: libbb/messages.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/xconnect.o: libbb/xconnect.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/vfork_daemon_rexec.o: libbb/vfork_daemon_rexec.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/perror_nomsg_and_die.o: libbb/perror_nomsg_and_die.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/concat_path_file.o: libbb/concat_path_file.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/ask_confirmation.o: libbb/ask_confirmation.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/get_console.o: libbb/get_console.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/safe_strncpy.o: libbb/safe_strncpy.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/vdprintf.o: libbb/vdprintf.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/recursive_action.o: libbb/recursive_action.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/my_getpwnam.o: libbb/my_getpwnam.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h)
+libbb/xgetcwd.o: libbb/xgetcwd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/parse_mode.o: libbb/parse_mode.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/dump.o: libbb/dump.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/dump.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/dump.h)
+libbb/make_directory.o: libbb/make_directory.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/syscalls.o: libbb/syscalls.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/obscure.o: libbb/obscure.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/print_file.o: libbb/print_file.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/module_syscalls.o: libbb/module_syscalls.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/xgetlarg.o: libbb/xgetlarg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+libbb/simplify_path.o: libbb/simplify_path.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/concat_subpath_file.o: libbb/concat_subpath_file.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/procps.o: libbb/procps.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/selinux.h)
+libbb/get_terminal_width_height.o: libbb/get_terminal_width_height.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/autowidth.h)
+libbb/fflush_stdout_and_exit.o: libbb/fflush_stdout_and_exit.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/fclose_nonstdin.o: libbb/fclose_nonstdin.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/vherror_msg.o: libbb/vherror_msg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/full_write.o: libbb/full_write.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/vperror_msg.o: libbb/vperror_msg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/find_mount_point.o: libbb/find_mount_point.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/read_package_field.o: libbb/read_package_field.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/mtab_file.o: libbb/mtab_file.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/mtab/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/mtab/filename.h)
+libbb/setup_environment.o: libbb/setup_environment.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/perror_nomsg.o: libbb/perror_nomsg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/fgets_str.o: libbb/fgets_str.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/xgethostbyname.o: libbb/xgethostbyname.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/inode_hash.o: libbb/inode_hash.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+libbb/default_error_retval.o: libbb/default_error_retval.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/run_shell.o: libbb/run_shell.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/selinux.h)
+libbb/find_root_device.o: libbb/find_root_device.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/devfs.h)
+libbb/get_line_from_file.o: libbb/get_line_from_file.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/parse_number.o: libbb/parse_number.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/inet_common.o: libbb/inet_common.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ipv6.h)
+libbb/device_open.o: libbb/device_open.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/my_getpwuid.o: libbb/my_getpwuid.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h)
+libbb/verror_msg.o: libbb/verror_msg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/loop.o: libbb/loop.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/pwd2spwd.o: libbb/pwd2spwd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/shadow_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/shadow_.h)
+libbb/restricted_shell.o: libbb/restricted_shell.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/trim.o: libbb/trim.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/perror_msg.o: libbb/perror_msg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/xgetularg.o: libbb/xgetularg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/copy_file.o: libbb/copy_file.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/preserve/hardlinks.h)
+libbb/bb_asprintf.o: libbb/bb_asprintf.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/create_icmp6_socket.o: libbb/create_icmp6_socket.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ipv6.h)
+libbb/xreadlink.o: libbb/xreadlink.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/qmodule.o: libbb/qmodule.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/correct_password.o: libbb/correct_password.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+libbb/llist_add_to.o: libbb/llist_add_to.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/printf.o: libbb/printf.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/interface.o: libbb/interface.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ipv6.h)
+libbb/hash_fd.o: libbb/hash_fd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/sha1sum.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/md5sum.h)
+libbb/speed_table.o: libbb/speed_table.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/safe_read.o: libbb/safe_read.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/last_char_is.o: libbb/last_char_is.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/error_msg.o: libbb/error_msg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/my_getug.o: libbb/my_getug.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/human_readable.o: libbb/human_readable.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/mtab.o: libbb/mtab.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/safe_strtol.o: libbb/safe_strtol.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/wfopen_input.o: libbb/wfopen_input.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/xgethostbyname2.o: libbb/xgethostbyname2.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ipv6.h)
+libbb/my_getgrgid.o: libbb/my_getgrgid.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h)
+libbb/run_parts.o: libbb/run_parts.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/full_read.o: libbb/full_read.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/isdirectory.o: libbb/isdirectory.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/login.o: libbb/login.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/pw_encrypt.o: libbb/pw_encrypt.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sha1/passwords.h)
+libbb/herror_msg.o: libbb/herror_msg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/create_icmp_socket.o: libbb/create_icmp_socket.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/process_escape_sequence.o: libbb/process_escape_sequence.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/wfopen.o: libbb/wfopen.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/skip_whitespace.o: libbb/skip_whitespace.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libbb/remove_file.o: libbb/remove_file.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+findutils/xargs.o: findutils/xargs.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/xargs/support/confirmation.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/xargs/support/quotes.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/xargs/support/termopt.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/xargs/support/zero/term.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+findutils/grep.o: findutils/grep.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/grep/context.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/grep/egrep/alias.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+findutils/find.o: findutils/find.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/find/type.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/find/perm.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/find/mtime.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/find/xdev.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/find/newer.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/find/inum.h)
+editors/sed.o: editors/sed.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+editors/vi.o: editors/vi.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/optimize/cursor.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/use/signals.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/crashme.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/dot/cmd.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/yankmark.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/readonly.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/search.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/colon.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/win/resize.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/setopts.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/vi/set.h)
+editors/patch.o: editors/patch.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+editors/awk.o: editors/awk.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/awk/math.h)
+procps/ps.o: procps/ps.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/selinux.h)
+procps/free.o: procps/free.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+procps/pidof.o: procps/pidof.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+procps/kill.o: procps/kill.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/killall.h)
+procps/uptime.o: procps/uptime.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+procps/sysctl.o: procps/sysctl.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+procps/top.o: procps/top.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/use/termios.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/selinux.h)
+procps/renice.o: procps/renice.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+sysklogd/syslogd.o: sysklogd/syslogd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/../networking/udhcp/files.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/../networking/udhcp/files.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/rotate/logfile.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/remote/log.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ipc/syslog.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ipc/syslog/buffer/size.h)
+sysklogd/logread.o: sysklogd/logread.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/logread/reduced/locking.h)
+sysklogd/klogd.o: sysklogd/klogd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+sysklogd/logger.o: sysklogd/logger.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/syslogd.h)
+console-tools/clear.o: console-tools/clear.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+console-tools/loadfont.o: console-tools/loadfont.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+console-tools/deallocvt.o: console-tools/deallocvt.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+console-tools/reset.o: console-tools/reset.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+console-tools/dumpkmap.o: console-tools/dumpkmap.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+console-tools/openvt.o: console-tools/openvt.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+console-tools/chvt.o: console-tools/chvt.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+console-tools/setkeycodes.o: console-tools/setkeycodes.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+console-tools/loadkmap.o: console-tools/loadkmap.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+applets/busybox.o: applets/busybox.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/installer.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/init.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/autowidth.h)
+applets/applets.o: applets/applets.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/usage.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/usage.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/applets.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/applets.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/applets.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/applets.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/suid.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/suid/config.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/suid/config/quiet.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/file.h)
+init/init.o: init/init.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/syslogd.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/init/coredumps.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/extra/quiet.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/use/inittab.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/initrd.h)
+init/mesg.o: init/mesg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+init/poweroff.o: init/poweroff.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/init.h)
+init/init_shared.o: init/init_shared.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/initrd.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/init.h)
+init/reboot.o: init/reboot.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/init.h)
+init/halt.o: init/halt.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/init.h)
+util-linux/nfsmount.o: util-linux/nfsmount.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+util-linux/fbset.o: util-linux/fbset.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fbset/fancy.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fbset/readmode.h)
+util-linux/mount.o: util-linux/mount.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/nfsmount.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/mount/loop.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/mtab/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+util-linux/fsck_minix.o: util-linux/fsck_minix.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/minix2.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+util-linux/dmesg.o: util-linux/dmesg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+util-linux/hwclock.o: util-linux/hwclock.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/hwclock/longoptions.h)
+util-linux/more.o: util-linux/more.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/use/termios.h)
+util-linux/getopt.o: util-linux/getopt.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+util-linux/losetup.o: util-linux/losetup.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+util-linux/pivot_root.o: util-linux/pivot_root.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+util-linux/umount.o: util-linux/umount.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/mount/force.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/mount/loop.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/mtab/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+util-linux/hexdump.o: util-linux/hexdump.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/dump.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/dump.h)
+util-linux/fdformat.o: util-linux/fdformat.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+util-linux/swaponoff.o: util-linux/swaponoff.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+util-linux/fdisk.o: util-linux/fdisk.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sun/label.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sgi/label.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/aix/label.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/osf/label.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fdisk/writable.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fdisk/advanced.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/weird/partition/types.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fdisk/blksize.h)
+util-linux/fdflush.o: util-linux/fdflush.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+util-linux/mkswap.o: util-linux/mkswap.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+util-linux/mkfs_minix.o: util-linux/mkfs_minix.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/minix2.h)
+util-linux/freeramdisk.o: util-linux/freeramdisk.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+util-linux/rdate.o: util-linux/rdate.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+modutils/lsmod.o: modutils/lsmod.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/check/tainted/module.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/query/module/interface.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+modutils/insmod.o: modutils/insmod.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/2/4/modules.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/2/6/modules.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/insmod/loadinkmem.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/insmod/version/checking.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/use/list.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/list/archtype.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/use/single.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/use/plt/entries.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/use/got/entries.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/use/plt/list.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/got/entry/size.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/plt/entry/size.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/check/tainted/module.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/insmod/ksymoops/symbols.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/insmod/load/map.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/insmod/load/map/full.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+modutils/modprobe.o: modutils/modprobe.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/2/6/modules.h)
+modutils/rmmod.o: modutils/rmmod.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/2/6/modules.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/query/module/interface.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+loginutils/vlock.o: loginutils/vlock.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+loginutils/addgroup.o: loginutils/addgroup.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/shadowpasswds.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/adduser.h)
+loginutils/su.o: loginutils/su.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/u/w/tmp.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/selinux.h)
+loginutils/deluser.o: loginutils/deluser.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+loginutils/delgroup.o: loginutils/delgroup.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/deluser.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+loginutils/adduser.o: loginutils/adduser.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/shadowpasswds.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/addgroup.h)
+loginutils/passwd.o: loginutils/passwd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+loginutils/sulogin.o: loginutils/sulogin.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+loginutils/getty.o: loginutils/getty.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/syslogd.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/u/w/tmp.h)
+loginutils/login.o: loginutils/login.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/selinux.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/u/w/tmp.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/securetty.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/wheel/group.h)
+loginutils/delline.o: loginutils/delline.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/watchdog.o: miscutils/watchdog.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/strings.o: miscutils/strings.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/hdparm.o: miscutils/hdparm.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/hdparm/get/identity.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/hdparm/hdio/getset/dma.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/hdparm/hdio/unregister/hwif.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/hdparm/hdio/scan/hwif.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/hdparm/hdio/tristate/hwif.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/hdparm/hdio/drive/reset.h)
+miscutils/crond.o: miscutils/crond.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/crond/call/sendmail.h)
+miscutils/mt.o: miscutils/mt.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/taskset.o: miscutils/taskset.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/makedevs.o: miscutils/makedevs.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/last.o: miscutils/last.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/rx.o: miscutils/rx.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/dc.o: miscutils/dc.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/time.o: miscutils/time.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/devfsd.o: miscutils/devfsd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/devfsd/modload.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/devfsd/verbose.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/debug.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/devfsd/fg/np.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/file.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/modules/devfs.h)
+miscutils/crontab.o: miscutils/crontab.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+miscutils/adjtimex.o: miscutils/adjtimex.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+archival/dpkg.o: archival/dpkg.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/deb/tar/bz2.h)
+archival/ar.o: archival/ar.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+archival/libunarchive/data_extract_to_buffer.o: archival/libunarchive/data_extract_to_buffer.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/data_skip.o: archival/libunarchive/data_skip.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+archival/libunarchive/decompress_unzip.o: archival/libunarchive/decompress_unzip.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/get_header_cpio.o: archival/libunarchive/get_header_cpio.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+archival/libunarchive/decompress_bunzip2.o: archival/libunarchive/decompress_bunzip2.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+archival/libunarchive/check_header_gzip.o: archival/libunarchive/check_header_gzip.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+archival/libunarchive/data_align.o: archival/libunarchive/data_align.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/open_transformer.o: archival/libunarchive/open_transformer.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+archival/libunarchive/unpack_ar_archive.o: archival/libunarchive/unpack_ar_archive.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+archival/libunarchive/get_header_tar.o: archival/libunarchive/get_header_tar.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tar/gnu/extensions.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tar/oldgnu/compatability.h)
+archival/libunarchive/filter_accept_reject_list.o: archival/libunarchive/filter_accept_reject_list.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/header_list.o: archival/libunarchive/header_list.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/archive_xread_all.o: archival/libunarchive/archive_xread_all.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+archival/libunarchive/find_list_entry.o: archival/libunarchive/find_list_entry.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/init_handle.o: archival/libunarchive/init_handle.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/seek_by_char.o: archival/libunarchive/seek_by_char.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+archival/libunarchive/data_extract_all.o: archival/libunarchive/data_extract_all.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/archive_xread_all_eof.o: archival/libunarchive/archive_xread_all_eof.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+archival/libunarchive/header_skip.o: archival/libunarchive/header_skip.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/get_header_tar_bz2.o: archival/libunarchive/get_header_tar_bz2.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/seek_by_jump.o: archival/libunarchive/seek_by_jump.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/unarchive/tape.h)
+archival/libunarchive/header_verbose_list.o: archival/libunarchive/header_verbose_list.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/get_header_ar.o: archival/libunarchive/get_header_ar.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ar/long/filenames.h)
+archival/libunarchive/filter_accept_list.o: archival/libunarchive/filter_accept_list.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/get_header_tar_gz.o: archival/libunarchive/get_header_tar_gz.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/decompress_uncompress.o: archival/libunarchive/decompress_uncompress.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+archival/libunarchive/data_extract_to_stdout.o: archival/libunarchive/data_extract_to_stdout.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/filter_accept_all.o: archival/libunarchive/filter_accept_all.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/libunarchive/filter_accept_list_reassign.o: archival/libunarchive/filter_accept_list_reassign.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/deb/tar/bz2.h)
+archival/gzip.o: archival/gzip.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/gunzip.h)
+archival/tar.o: archival/tar.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tar/create.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tar/from.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tar/gzip.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tar/compress.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tar/bzip2.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tar/long/options.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+archival/bunzip2.o: archival/bunzip2.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/cpio.o: archival/cpio.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+archival/dpkg_deb.o: archival/dpkg_deb.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/deb/tar/bz2.h)
+archival/rpm2cpio.o: archival/rpm2cpio.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/gunzip.o: archival/gunzip.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/gunzip/uncompress.h)
+archival/rpm.o: archival/rpm.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/uncompress.o: archival/uncompress.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h)
+archival/unzip.o: archival/unzip.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/inetd.o: networking/inetd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/inetd/support/biltin/echo.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/inetd/support/biltin/discard.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/inetd/support/biltin/time.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/inetd/support/biltin/daytime.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/inetd/support/biltin/chargen.h)
+networking/ipneigh.o: networking/ipneigh.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/ping6.o: networking/ping6.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fancy/ping6.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fancy/ping.h)
+networking/vconfig.o: networking/vconfig.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/arping.o: networking/arping.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/ifupdown.o: networking/ifupdown.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ifupdown/mapping.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ifupdown/ip.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ifupdown/ipx.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ifupdown/ipv6.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ifupdown/ipv4.h)
+networking/httpd.o: networking/httpd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/lfs.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/httpd/usage/from/inetd/only.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/httpd/basic/auth.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/httpd/cgi.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/httpd/config/with/mime/types.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/httpd/encode/url/str.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/httpd/set/remote/port/to/env.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/httpd/auth/md5.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/httpd/reload/config/sighup.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/httpd/setuid.h)
+networking/tftp.o: networking/tftp.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tftp/blocksize.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tftp/debug.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tftp/get.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tftp/put.h)
+networking/nc.o: networking/nc.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/traceroute.o: networking/traceroute.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/traceroute/verbose.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/traceroute.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/traceroute/so/debug.h)
+networking/ftpgetput.o: networking/ftpgetput.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ftpget.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ftpput.h)
+networking/iproute.o: networking/iproute.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/telnetd.o: networking/telnetd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/login.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/telnetd/inetd.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/devpts.h)
+networking/ip.o: networking/ip.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ip/address.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ip/route.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ip/link.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ip/tunnel.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ip/neigh.h)
+networking/ifconfig.o: networking/ifconfig.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ifconfig/slip.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ipv6.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ifconfig/broadcast/plus.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ifconfig/hw.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ifconfig/memstart/ioaddr/irq.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ifconfig/status.h)
+networking/iplink.o: networking/iplink.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/arp.o: networking/arp.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h)
+networking/wget.o: networking/wget.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/wget/statusbar.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/wget/authentication.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/wget/ip6/literal.h)
+networking/nslookup.o: networking/nslookup.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/netstat.o: networking/netstat.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/route.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ipv6.h)
+networking/telnet.o: networking/telnet.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/telnet/ttype.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/telnet/autologin.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/autowidth.h)
+networking/ping.o: networking/ping.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fancy/ping.h)
+networking/route.o: networking/route.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/inet_common.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ipv6.h)
+networking/ipcalc.o: networking/ipcalc.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ipcalc/fancy.h)
+networking/ipaddr.o: networking/ipaddr.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/iptunnel.o: networking/iptunnel.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/libiproute/libnetlink.o: networking/libiproute/libnetlink.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+networking/libiproute/iproute.o: networking/libiproute/iproute.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+networking/libiproute/iplink.o: networking/libiproute/iplink.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+networking/libiproute/ip_parse_common_args.o: networking/libiproute/ip_parse_common_args.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+networking/libiproute/ll_addr.o: networking/libiproute/ll_addr.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+networking/libiproute/utils.o: networking/libiproute/utils.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+networking/libiproute/ipaddress.o: networking/libiproute/ipaddress.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+networking/libiproute/iptunnel.o: networking/libiproute/iptunnel.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+networking/nameif.o: networking/nameif.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+networking/hostname.o: networking/hostname.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+coreutils/seq.o: coreutils/seq.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/tty.o: coreutils/tty.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/false.o: coreutils/false.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/hostid.o: coreutils/hostid.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/ls.o: coreutils/ls.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/selinux.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ls/timestamps.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ls/sortfiles.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ls/followlinks.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/human/readable.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ls/filetypes.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ls/color.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/autowidth.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ls/recursive.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/ls/username.h)
+coreutils/chown.o: coreutils/chown.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/chgrp.o: coreutils/chgrp.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/watch.o: coreutils/watch.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/md5_sha1_sum.o: coreutils/md5_sha1_sum.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/md5/sha1/sum/check.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/md5sum.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/sha1sum.h)
+coreutils/tail.o: coreutils/tail.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fancy/tail.h)
+coreutils/dos2unix.o: coreutils/dos2unix.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/cp.o: coreutils/cp.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/mkfifo.o: coreutils/mkfifo.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/dirname.o: coreutils/dirname.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/df.o: coreutils/df.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/human/readable.h)
+coreutils/rm.o: coreutils/rm.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/usleep.o: coreutils/usleep.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/uniq.o: coreutils/uniq.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/whoami.o: coreutils/whoami.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/du.o: coreutils/du.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/human/readable.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/du/defalt/blocksize/1k.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+coreutils/tr.o: coreutils/tr.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/env.o: coreutils/env.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/mkdir.o: coreutils/mkdir.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/mknod.o: coreutils/mknod.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/sync.o: coreutils/sync.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/chmod.o: coreutils/chmod.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/tee.o: coreutils/tee.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/tee/use/block/io.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+coreutils/yes.o: coreutils/yes.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/stty.o: coreutils/stty.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/uname.o: coreutils/uname.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/mv.o: coreutils/mv.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/dd.o: coreutils/dd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/touch.o: coreutils/touch.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/od.o: coreutils/od.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/dump.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/dump.h)
+coreutils/cut.o: coreutils/cut.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/wc.o: coreutils/wc.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/locale/support.h)
+coreutils/realpath.o: coreutils/realpath.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+coreutils/expr.o: coreutils/expr.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/uuencode.o: coreutils/uuencode.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/uudecode.o: coreutils/uudecode.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+coreutils/install.o: coreutils/install.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/head.o: coreutils/head.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fancy/head.h)
+coreutils/fold.o: coreutils/fold.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/echo.o: coreutils/echo.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fancy/echo.h)
+coreutils/rmdir.o: coreutils/rmdir.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/id.o: coreutils/id.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/selinux.h)
+coreutils/cmp.o: coreutils/cmp.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/printf.o: coreutils/printf.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/true.o: coreutils/true.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/sort.o: coreutils/sort.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/who.o: coreutils/who.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/cat.o: coreutils/cat.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/length.o: coreutils/length.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/logname.o: coreutils/logname.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/basename.o: coreutils/basename.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/chroot.o: coreutils/chroot.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/pwd.o: coreutils/pwd.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/test.o: coreutils/test.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/test/64.h)
+coreutils/ln.o: coreutils/ln.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h)
+coreutils/cal.o: coreutils/cal.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/locale/support.h)
+coreutils/date.o: coreutils/date.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/date/isofmt.h)
+coreutils/sleep.o: coreutils/sleep.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/fancy/sleep.h)
+coreutils/libcoreutils/cp_mv_stat.o: coreutils/libcoreutils/cp_mv_stat.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+coreutils/libcoreutils/getopt_mk_fifo_nod.o: coreutils/libcoreutils/getopt_mk_fifo_nod.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+coreutils/libcoreutils/xgetoptfile_sort_uniq.o: coreutils/libcoreutils/xgetoptfile_sort_uniq.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/libbb.h)
+libpwdgrp/pwd_grp.o: libpwdgrp/pwd_grp.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/grp_.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/shadow_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/shadow_.h)
+shell/cmdedit.o: shell/cmdedit.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/../shell/cmdedit.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/../shell/cmdedit.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/tab/completion.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/editing.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/username/completion.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/getusername/and/homedir.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/history.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/nonprintable/inverse/put.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ash.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/savehistory.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+shell/ash.o: shell/ash.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/pwd_.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ash/job/control.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ash/alias.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ash/optimize/for/size.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ash/math/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ash/cmdcmd.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ash/getopts.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ash/mail.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ash/math/support/64.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/ash/random/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/savehistory.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/editing.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/tab/completion.h)
+shell/hush.o: shell/hush.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/editing.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h)
+shell/msh.o: shell/msh.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/editing.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/standalone/shell.h)
+shell/lash.o: shell/lash.c \
+ /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h $(dep_/home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/lash/pipe/n/redirects.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/lash/job/control.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/command/editing.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/clean/up.h) \
+   $(wildcard /home/sannu/SYRO/7528_CT_SDK_mesh/tclinux_phoenix/apps/public/busybox-1.00/config/feature/sh/extra/quiet.h)

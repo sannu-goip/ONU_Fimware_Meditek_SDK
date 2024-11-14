@@ -1,0 +1,7 @@
+All:
+	make -f app_bsp/MakeFile_Main_BSP bsp_sdk 
+	make -f apps/private/MakeFile_Main_APP sdk_fw	
+
+clean:
+	make -f app_bsp/MakeFile_Main_BSP bsp_sdk_clean
+	make -f apps/private/MakeFile_Main_APP sdk_fw_clean

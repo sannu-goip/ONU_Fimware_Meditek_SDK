@@ -1,0 +1,69 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 0 (0x0)
+        Signature Algorithm: md5WithRSAEncryption
+        Issuer: C=GB, ST=Berkshire, L=Newbury, O=My Company Ltd, CN=econet
+        Validity
+            Not Before: Jun 26 03:06:46 2019 GMT
+            Not After : Jun 25 03:06:46 2021 GMT
+        Subject: C=GB, ST=Berkshire, O=My Company Ltd, CN=econet
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:d1:b3:f0:a4:2e:8f:ea:06:66:ce:5e:80:d8:d2:
+                    2e:15:7b:ed:12:c4:4b:75:e5:c1:a5:63:b0:7a:d9:
+                    9b:0c:b7:72:ac:39:0b:dd:a8:45:ad:90:1c:93:10:
+                    d1:4d:87:bb:4a:81:73:54:01:f7:24:9c:6d:0d:09:
+                    2d:6c:2b:48:b6:f2:97:39:c5:45:e8:86:52:71:8c:
+                    f7:10:4b:d9:57:df:1a:86:31:ec:2e:99:59:29:32:
+                    b3:02:d7:fb:6a:5b:4f:d6:69:03:60:d0:4a:9d:0b:
+                    56:60:c1:39:e1:b2:88:9c:75:09:29:f4:02:d5:a0:
+                    1a:26:39:9e:a3:61:ba:20:9b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+            CA:FALSE
+            Netscape Comment: 
+            OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+            D6:E0:8B:64:6D:52:81:37:BC:52:3A:B7:49:2D:BF:E2:F2:A1:00:51
+            X509v3 Authority Key Identifier: 
+            keyid:41:CD:3D:EC:4E:27:8D:EC:5A:21:81:87:26:CE:DE:4A:57:BE:BB:9D
+
+    Signature Algorithm: md5WithRSAEncryption
+        d3:29:71:e7:a9:3b:1d:6d:19:b0:b2:5e:9c:cf:9a:cf:32:aa:
+        9e:04:b2:83:eb:00:09:4d:d1:e9:10:8d:94:16:2c:ba:2d:ab:
+        61:b0:ee:cd:f1:f6:22:58:f3:ae:97:d5:25:8b:5d:10:ba:c8:
+        a8:96:f2:79:97:60:e5:44:cd:e4:80:67:f0:6f:b8:7a:95:44:
+        33:2e:9c:57:78:a9:76:3c:39:ec:ce:50:d2:a2:e7:23:a2:0a:
+        73:5c:72:0f:bc:23:cc:2e:16:17:e5:3b:4e:8d:02:c5:91:d0:
+        fc:4d:c0:9f:d5:1c:96:25:fb:2a:c4:88:19:c0:e5:e4:9e:4b:
+        d7:7b:79:b5:e3:19:de:ca:bf:18:56:84:ca:cb:f3:41:07:06:
+        32:5f:0c:5a:21:09:9a:86:ec:88:71:5a:a0:39:02:f5:e1:1a:
+        6f:d7:f9:97:07:72:e9:6d:66:57:62:be:01:b4:ea:c4:00:7b:
+        74:10:62:fe:b5:13:fa:4f:04:90:62:f1:16:26:c4:e2:82:c4:
+        0b:6b:da:65:fd:0b:91:9d:97:d2:c1:11:3b:c4:9e:9b:f4:64:
+        ca:0a:3e:03:49:55:53:0c:a5:86:18:4c:2c:6e:a7:ac:55:46:
+        b3:1a:4f:2c:09:48:e7:e9:3a:30:be:43:c5:a6:a3:58:66:e5:
+        fb:76:01:78
+-----BEGIN CERTIFICATE-----
+MIIDGjCCAgKgAwIBAgIBADANBgkqhkiG9w0BAQQFADBdMQswCQYDVQQGEwJHQjES
+MBAGA1UECBMJQmVya3NoaXJlMRAwDgYDVQQHEwdOZXdidXJ5MRcwFQYDVQQKEw5N
+eSBDb21wYW55IEx0ZDEPMA0GA1UEAxMGZWNvbmV0MB4XDTE5MDYyNjAzMDY0NloX
+DTIxMDYyNTAzMDY0NlowSzELMAkGA1UEBhMCR0IxEjAQBgNVBAgTCUJlcmtzaGly
+ZTEXMBUGA1UEChMOTXkgQ29tcGFueSBMdGQxDzANBgNVBAMTBmVjb25ldDCBnzAN
+BgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0bPwpC6P6gZmzl6A2NIuFXvtEsRLdeXB
+pWOwetmbDLdyrDkL3ahFrZAckxDRTYe7SoFzVAH3JJxtDQktbCtItvKXOcVF6IZS
+cYz3EEvZV98ahjHsLplZKTKzAtf7altP1mkDYNBKnQtWYME54bKInHUJKfQC1aAa
+Jjmeo2G6IJsCAwEAAaN7MHkwCQYDVR0TBAIwADAsBglghkgBhvhCAQ0EHxYdT3Bl
+blNTTCBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFNbgi2RtUoE3vFI6
+t0ktv+LyoQBRMB8GA1UdIwQYMBaAFEHNPexOJ43sWiGBhybO3kpXvrudMA0GCSqG
+SIb3DQEBBAUAA4IBAQDTKXHnqTsdbRmwsl6cz5rPMqqeBLKD6wAJTdHpEI2UFiy6
+LathsO7N8fYiWPOul9Uli10QusiolvJ5l2DlRM3kgGfwb7h6lUQzLpxXeKl2PDns
+zlDSoucjogpzXHIPvCPMLhYX5TtOjQLFkdD8TcCf1RyWJfsqxIgZwOXknkvXe3m1
+4xneyr8YVoTKy/NBBwYyXwxaIQmahuyIcVqgOQL14Rpv1/mXB3LpbWZXYr4BtOrE
+AHt0EGL+tRP6TwSQYvEWJsTigsQLa9pl/QuRnZfSwRE7xJ6b9GTKCj4DSVVTDKWG
+GEwsbqesVUazGk8sCUjn6TowvkPFpqNYZuX7dgF4
+-----END CERTIFICATE-----

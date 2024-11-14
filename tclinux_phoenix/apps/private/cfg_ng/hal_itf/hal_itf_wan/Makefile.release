@@ -1,0 +1,52 @@
+CFLAGS += -Wall -fPIC -O2   -I../../install/include  -I../../service/cfg 
+
+HAL_ITF_WAN_LIBS = $(LIBINSTALL_LDFLAGS) -L../../install/lib  -lhostservice -lcfg_clisvc 
+ifneq ($(strip $(TCSUPPORT_CMCCV2)),)
+HAL_ITF_WAN_LIBS += -L $(APP_API_LIB_OUTPUT_DIR) -lapi_lib_flowmgr
+endif
+HAL_ITF_WAN_LIB_OBJS = hal_itf_wan.o
+
+HAL_ITF_WAN_LIB = libhal_itf_wan.so
+
+TARGETS =  $(HAL_ITF_WAN_LIB)
+
+OBJS = sample_hal_wan.o
+EXECS = sample_hal_wan
+
+RELEASE_OBJS += $(HAL_ITF_WAN_LIB_OBJS) $(OBJS)
+
+INCLUDE = -I$(APP_MXML_DIR) -I../../install/include
+
+CFLAGS_LINK_SO = $(LIBINSTALL_LDFLAGS) -L./ -lhal_itf_wan -L../../install/lib -lubus -lubox -lhostservice -lcfg_clisvc -L$(APP_MXML_DIR) -lmxml -L $(LIB_INSTALL_DIR) $(ECNT_EVENT_LIB)
+ifneq ($(strip $(TCSUPPORT_CMCCV2)),)
+CFLAGS_LINK_SO += -L $(APP_API_LIB_OUTPUT_DIR) -lapi_lib_flowmgr -lecnt_lib_dbg
+endif
+
+all: $(TARGETS) $(EXECS)
+
+%.o:%.c
+	$(CC)   $(CFLAGS)  $(TC_CFLAGS)   -c $<
+
+
+$(HAL_ITF_WAN_LIB):   $(HAL_ITF_WAN_LIB_OBJS)
+	$(CC)   -shared  $(PATH_LINK) -o  $@   $^   $(HAL_ITF_WAN_LIBS)
+
+$(EXECS): $(RELEASE_OBJS) 
+	$(CC) $(INCLUDE) $(PATH_LINK) $(RELEASE_OBJS) $(CFLAGS_LINK_SO) -o $@
+	$(STRIP) --strip-unneeded $(EXECS)
+
+clean:
+	-rm  $(OBJS) $(HAL_ITF_WAN_LIB) $(EXECS)
+
+install:
+	if test -d ../../install/lib;\
+	then cp -f  $(HAL_ITF_WAN_LIB)   ../../install/lib;\
+	else mkdir -p ../../install/lib;\
+			cp -f  $(HAL_ITF_WAN_LIB)   ../../install/lib;\
+	fi
+	
+	if test -d ../../install/bin;\
+	then cp $(EXECS)  ../../install/bin;\
+	else mkdir -p ../../install/bin;\
+			cp $(EXECS)  ../../install/bin;\
+	fi

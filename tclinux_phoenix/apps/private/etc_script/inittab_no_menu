@@ -1,0 +1,2 @@
+::sysinit:/usr/etc/init.d/rcS
+::askfirst:/sbin/getty -n -l /usr/sbin/autologin -L ttyS0 115200 vt100
