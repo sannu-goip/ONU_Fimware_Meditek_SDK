@@ -2906,33 +2906,6 @@ ssh:
 ssh_clean:
 endif
 
-sftp:
-	echo "Build sftp-server"
-	cd $(SFTP_DIR) && autoreconf && ./configure --host=$(HOST) --target=$(COMPILE_TOOLCHAIN) --with-zlib=$(RSYSLOG_APP_DIR)/install LDFLAGS="-L$ (LIB_INSTALL_DIR)/OPSSL/lib -L$ (APP_PRIVATE_DIR)/goip" CPPFLAGS="-IŞ(LIB_INSTALL_DIR)/OPSSL/include"
-	$(MAKE) -C $(SFTP DIR)
-	$(STRIP) $(SFTP_DIR)/sftp-server
-	$(STRIP) $(SFTP_DIR)/sftp
-	$(STRIP) $(SFTP_DIR)/scp
-	$(STRIP) $(SFTP_DIR)/ssh
-	$(STRIP) $(SFTP_DIR)/sshd
-	$(STRIP) $(SFTP_DIR)/ssh-add
-	$(STRIP) $(SFTP_DIR)/ssh-agent
-	$(STRIP) $(SFTP_DIR)/ssh-keygen
-	$(STRIP) $(SFTP_DIR)/ssh-keyscan
-	rm -rf $(FILESYSTEM_DIR)/usr/libexec/
-	mkdir $(FILESYSTEM_DIR)/usr/libexec/
-	mkdir -p $(FILESYSTEM_DIR)/usr/local/etc/
-	cp -rf $(SFTP_DIR)/ssh_config $ (FILESYSTEM_DIR) /usr/local/etc/
-	cp -rf $(SFTP_DIR)/sshd_config $ (FILESYSTEM_DIR) /usr/local/etc/ 
-	cp -rf $(SFTP_DIR)/sftp-server $ (FILESYSTEM_DIR) /usr/libexec/ 
-	cp -rf $(SFTP_DIR)/sftp $ (FILESYSTEM_DIR) /usr/sbin/ 
-	cp -rf $(SFTP_DIR)/scp $(FILESYSTEM_DIR)/usr/sbin/ 
-	cp -rf $(SFTP_DIR)/ssh $ (FILESYSTEM_DIR) /usr/sbin/ 
-	cp -rf $(SFTP_DIR)/sshd $ (FILESYSTEM_DIR)/usr/sbin/ 
-	cp -rf $(SFTP_DIR)/ssh-add $ (FILESYSTEM_DIR) /usr/sbin/ 
-	cp -rf $(SFTP_DIR)/ssh-keygen $ (FILESYSTEM_DIR) /usr/sbin/ 
-	#cp -rf $(SFTP_DIR)/ssh-keyscan $ (FILESYSTEM_DIR) /usr/sbin/ 
-	#cp -rf $(SFTP_DIR)/ssh-agent $ (FILESYSTEM_DIR) /usr/sbin/
 
 
 ifneq ($(strip $(TCSUPPORT_WLAN_TR181)),)
