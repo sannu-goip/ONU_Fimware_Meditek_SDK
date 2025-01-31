@@ -124,7 +124,7 @@ enum dev_pvc_info_en{
 #if defined(TCSUPPORT_CMCCV2) || defined(TCSUPPORT_NP_CMCC)
 #define DEFAULT_SSID "CMCC-AP"
 #else
-#define DEFAULT_SSID "ChinaNet-AP"
+#define DEFAULT_SSID "Bharat_Net-AP"
 #endif
 
 #define DEFAULT_WPAKEY "12345678"
